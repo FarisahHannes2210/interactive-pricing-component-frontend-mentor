@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+  </head>
+  <body>
+    <main>
+      <div class="title">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial. No credit card required.</p>
+      </div>
+
+      <div class="container">
+
+        <!-- top -->
+        <div class="top">
+          <!-- <div class="changingStuff"> -->
+            <!-- pageview -->
+            <div class="pageview">
+              <p id="pageview">100K PAGEVIEWS</p>
+            </div><!-- pageview end -->
+
+
+            <div class="priceHere">
+              <p id="price">$16.00</p>
+              <p>/ month</p>
+            </div><!-- priceHere end -->
+          <!-- </div> -->
+          <!-- changingStuff end -->
+
+          <!-- range -->
+          <div class="range">
+            <input oninput="main()" id="range" type="range" min="0" max="4" value="2" />
+          </div>
+          <!-- range end -->
+        </div><!-- top end -->
+
+          <div class="toggle">
+            <!-- slider -->
+            <label for="toggle">Monthly Billing</label>
+            <label class="switch">
+              <input onchange="main()" id="toggle" type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+            <label for="toggle">Yearly Billing</label>
+            <div class="discount">
+              
+            </div>
+          </div>
+
+          <!-- slider end -->
+       
+
+        <hr />
+        <!-- bottom -->
+        <div class="bottom">
+          <!-- list -->
+          <div class="list">
+            <ul>
+              <li>Unlimited websites</li>
+              <li>100% data ownership</li>
+              <li>Email reports</li>
+            </ul>
+          </div>
+          <!-- list end -->
+
+          <div class="button">
+            <button>Start my trial</button>
+          </div>
+        </div>
+        <!-- bottom end -->
+      </div>
+      <!-- container end -->
+    </main>
+  
+
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </body>
+</html>
