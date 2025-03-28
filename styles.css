@@ -149,7 +149,7 @@ grid-area: pageview;
   cursor: pointer;
   /* background: var(--LightGrayishBlue); */
   /* background: var(--SoftCyan); */
-  background: linear-gradient(to right, var(--SoftCyan) 50%, var(--LightGrayishBlue) 50%);
+  /* this background: linear-gradient(to right, var(--SoftCyan) 50%, var(--LightGrayishBlue) 50%); */
   /* transition: background 450ms ease-in; */
   -webkit-appearance: none;
   width: 100%;
